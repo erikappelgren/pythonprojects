@@ -18,12 +18,14 @@ def remainingThrows():
             throws = throws - 1
             print(str(throws) + " kast kvar")
             if test == "stop":
+                throws == 0
                 break
-            if throws == 0:
-                print("Next player")
-                i = i -1
-                list.append(list2)
-                print(list)
-                throws = 3
+        if throws == 0:
+            print("Next player")
+            i = i -1
+            list.append(list2)
+            print(list)
+            #print(i)
+            throws = 3
 
 remainingThrows()
