@@ -57,3 +57,4 @@ def __start_round__(self):
         print("Total rounds: " + str(self.round) + "\n" + "Total yahtzees: " + str(self.yahtzee_count))
 
 #__start_round__(self)
+#githubtest
